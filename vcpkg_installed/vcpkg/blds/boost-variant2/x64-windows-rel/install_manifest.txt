@@ -1,0 +1,6 @@
+C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-variant2_x64-windows/include/boost/variant2/variant.hpp
+C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-variant2_x64-windows/include/boost/variant2.hpp
+C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-variant2_x64-windows/share/boost-1.90.0/variant2/boost_variant2.natvis
+C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-variant2_x64-windows/lib/cmake/boost_variant2-1.90.0/boost_variant2-targets.cmake
+C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-variant2_x64-windows/lib/cmake/boost_variant2-1.90.0/boost_variant2-config.cmake
+C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-variant2_x64-windows/lib/cmake/boost_variant2-1.90.0/boost_variant2-config-version.cmake

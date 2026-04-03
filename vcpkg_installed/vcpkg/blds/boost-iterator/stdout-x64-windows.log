@@ -1,0 +1,8 @@
+Downloading https://github.com/boostorg/iterator/archive/boost-1.90.0.tar.gz -> boostorg-iterator-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-iterator-boost-1.90.0.tar.gz
+-- Extracting source C:/Users/MRATUNJAI SINGH/AppData/Local/vcpkg/downloads/boostorg-iterator-boost-1.90.0.tar.gz
+-- Using source at C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/blds/boost-iterator/src/ost-1.90.0-dd58b06ecd.clean
+-- Configuring x64-windows
+-- Building x64-windows-rel
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/share/boost-iterator/copyright
+-- Performing post-build validation

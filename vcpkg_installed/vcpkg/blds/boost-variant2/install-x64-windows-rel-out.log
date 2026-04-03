@@ -1,0 +1,16 @@
+Change Dir: 'C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/blds/boost-variant2/x64-windows-rel'
+
+Run Build Command(s): "C:/Users/MRATUNJAI SINGH/AppData/Local/vcpkg/downloads/tools/ninja/1.13.1-windows/ninja.exe" -v -v -j9 install
+[0/1] C:\Windows\system32\cmd.exe /C "cd /D C:\Projects\l4-loadbalancer\vcpkg_installed\vcpkg\blds\boost-variant2\x64-windows-rel && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
+-- Install configuration: "Release"
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-variant2_x64-windows/include
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-variant2_x64-windows/include/boost
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-variant2_x64-windows/include/boost/variant2
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-variant2_x64-windows/include/boost/variant2/variant.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-variant2_x64-windows/include/boost/variant2.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-variant2_x64-windows/share/boost-1.90.0/variant2
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-variant2_x64-windows/share/boost-1.90.0/variant2/boost_variant2.natvis
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-variant2_x64-windows/lib/cmake/boost_variant2-1.90.0/boost_variant2-targets.cmake
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-variant2_x64-windows/lib/cmake/boost_variant2-1.90.0/boost_variant2-config.cmake
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-variant2_x64-windows/lib/cmake/boost_variant2-1.90.0/boost_variant2-config-version.cmake
+

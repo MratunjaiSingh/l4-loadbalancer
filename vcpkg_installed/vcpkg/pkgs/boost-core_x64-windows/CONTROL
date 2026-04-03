@@ -1,0 +1,8 @@
+Package: boost-core
+Version: 1.90.0
+Port-Version: 1
+Depends: boost-assert, boost-cmake, boost-config, boost-headers, boost-throw-exception
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 01be6a4dae29479518c0029e25cc0cde904e66eeba3d3a5fdad0ce7b41ee804e
+Description: Boost core module

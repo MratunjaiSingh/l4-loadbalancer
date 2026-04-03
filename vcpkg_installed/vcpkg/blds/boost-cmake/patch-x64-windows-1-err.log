@@ -1,0 +1,5 @@
+Checking patch include/BoostInstall.cmake...
+Hunk #1 succeeded at 68 (offset 1 line).
+Hunk #2 succeeded at 324 (offset 40 lines).
+Hunk #3 succeeded at 499 (offset 46 lines).
+Applied patch include/BoostInstall.cmake cleanly.

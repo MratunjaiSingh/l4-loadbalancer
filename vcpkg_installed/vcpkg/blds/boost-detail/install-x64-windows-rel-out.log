@@ -1,0 +1,36 @@
+Change Dir: 'C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/blds/boost-detail/x64-windows-rel'
+
+Run Build Command(s): "C:/Users/MRATUNJAI SINGH/AppData/Local/vcpkg/downloads/tools/ninja/1.13.1-windows/ninja.exe" -v -v -j9 install
+[0/1] C:\Windows\system32\cmd.exe /C "cd /D C:\Projects\l4-loadbalancer\vcpkg_installed\vcpkg\blds\boost-detail\x64-windows-rel && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
+-- Install configuration: "Release"
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-detail_x64-windows/include
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-detail_x64-windows/include/boost
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-detail_x64-windows/include/boost/blank.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-detail_x64-windows/include/boost/blank_fwd.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-detail_x64-windows/include/boost/cstdlib.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-detail_x64-windows/include/boost/detail
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-detail_x64-windows/include/boost/detail/allocator_utilities.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-detail_x64-windows/include/boost/detail/binary_search.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-detail_x64-windows/include/boost/detail/bitmask.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-detail_x64-windows/include/boost/detail/catch_exceptions.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-detail_x64-windows/include/boost/detail/container_fwd.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-detail_x64-windows/include/boost/detail/fenv.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-detail_x64-windows/include/boost/detail/has_default_constructor.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-detail_x64-windows/include/boost/detail/identifier.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-detail_x64-windows/include/boost/detail/indirect_traits.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-detail_x64-windows/include/boost/detail/is_incrementable.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-detail_x64-windows/include/boost/detail/is_sorted.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-detail_x64-windows/include/boost/detail/is_xxx.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-detail_x64-windows/include/boost/detail/lightweight_main.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-detail_x64-windows/include/boost/detail/lightweight_test_report.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-detail_x64-windows/include/boost/detail/named_template_params.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-detail_x64-windows/include/boost/detail/numeric_traits.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-detail_x64-windows/include/boost/detail/reference_content.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-detail_x64-windows/include/boost/detail/select_type.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-detail_x64-windows/include/boost/detail/templated_streams.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-detail_x64-windows/include/boost/detail/utf8_codecvt_facet.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-detail_x64-windows/include/boost/detail/utf8_codecvt_facet.ipp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-detail_x64-windows/lib/cmake/boost_detail-1.90.0/boost_detail-targets.cmake
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-detail_x64-windows/lib/cmake/boost_detail-1.90.0/boost_detail-config.cmake
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-detail_x64-windows/lib/cmake/boost_detail-1.90.0/boost_detail-config-version.cmake
+

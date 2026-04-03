@@ -1,0 +1,16 @@
+Downloading https://github.com/nlohmann/json/archive/v3.12.0.tar.gz -> nlohmann-json-v3.12.0.tar.gz
+Successfully downloaded nlohmann-json-v3.12.0.tar.gz
+-- Extracting source C:/Users/MRATUNJAI SINGH/AppData/Local/vcpkg/downloads/nlohmann-json-v3.12.0.tar.gz
+-- Applying patch fix-4736_char8_t.patch
+-- Applying patch fix-4742_std_optional.patch
+-- Using source at C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/blds/nlohmann-json/src/v3.12.0-89fed620e6.clean
+-- Configuring x64-windows
+-- Building x64-windows-dbg
+-- Building x64-windows-rel
+-- Fixing pkgconfig file: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/nlohmann-json_x64-windows/share/pkgconfig/nlohmann_json.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.4.3-1-any.pkg.tar.zst
+-- Using cached msys2-msys2-runtime-3.6.2-2-x86_64.pkg.tar.zst
+-- Using msys root at C:/Users/MRATUNJAI SINGH/AppData/Local/vcpkg/downloads/tools/msys2/9272adbcaf19caef
+-- Fixing pkgconfig file: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/nlohmann-json_x64-windows/debug/share/pkgconfig/nlohmann_json.pc
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/nlohmann-json_x64-windows/share/nlohmann-json/copyright
+-- Performing post-build validation

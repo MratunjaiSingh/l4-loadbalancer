@@ -1,0 +1,13 @@
+C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-functional_x64-windows/include/boost/functional/factory.hpp
+C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-functional_x64-windows/include/boost/functional/forward_adapter.hpp
+C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-functional_x64-windows/include/boost/functional/identity.hpp
+C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-functional_x64-windows/include/boost/functional/lightweight_forward_adapter.hpp
+C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-functional_x64-windows/include/boost/functional/overloaded_function/config.hpp
+C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-functional_x64-windows/include/boost/functional/overloaded_function/detail/base.hpp
+C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-functional_x64-windows/include/boost/functional/overloaded_function/detail/function_type.hpp
+C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-functional_x64-windows/include/boost/functional/overloaded_function.hpp
+C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-functional_x64-windows/include/boost/functional/value_factory.hpp
+C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-functional_x64-windows/include/boost/functional.hpp
+C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-functional_x64-windows/lib/cmake/boost_functional-1.90.0/boost_functional-targets.cmake
+C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-functional_x64-windows/lib/cmake/boost_functional-1.90.0/boost_functional-config.cmake
+C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-functional_x64-windows/lib/cmake/boost_functional-1.90.0/boost_functional-config-version.cmake

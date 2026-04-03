@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/blds/boost-array/x64-windows-rel/cmake_install.cmake",
+		"C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/blds/boost-array/x64-windows-rel/libs/array/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

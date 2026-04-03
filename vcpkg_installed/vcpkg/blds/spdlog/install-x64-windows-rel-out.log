@@ -1,0 +1,117 @@
+Change Dir: 'C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/blds/spdlog/x64-windows-rel'
+
+Run Build Command(s): "C:/Users/MRATUNJAI SINGH/AppData/Local/vcpkg/downloads/tools/ninja/1.13.1-windows/ninja.exe" -v -v -j9 install
+[1/9] C:/PROGRA~1/CMake/bin/cmcldeps.exe RC C:\Projects\l4-loadbalancer\vcpkg_installed\vcpkg\blds\spdlog\x64-windows-rel\version.rc CMakeFiles\spdlog.dir\version.rc.res.d CMakeFiles\spdlog.dir\version.rc.res "Note: including file: " "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/cl.exe" C:\PROGRA~2\WI3CF2~1\10\bin\100261~1.0\x64\rc.exe -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_FWRITE_UNLOCKED -DSPDLOG_SHARED_LIB -Dspdlog_EXPORTS -I C:\Projects\l4-loadbalancer\vcpkg_installed\vcpkg\blds\spdlog\src\v1.17.0-2617b3696e.clean\include -I C:\Projects\l4-loadbalancer\vcpkg_installed\x64-windows\include -c65001 /DWIN32 /fo CMakeFiles\spdlog.dir\version.rc.res C:\Projects\l4-loadbalancer\vcpkg_installed\vcpkg\blds\spdlog\x64-windows-rel\version.rc
+[2/9] C:\PROGRA~1\MIB055~1\18\COMMUN~1\VC\Tools\MSVC\1450~1.357\bin\Hostx64\x64\cl.exe   /TP -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_FWRITE_UNLOCKED -DSPDLOG_SHARED_LIB -Dspdlog_EXPORTS -IC:\Projects\l4-loadbalancer\vcpkg_installed\vcpkg\blds\spdlog\src\v1.17.0-2617b3696e.clean\include -external:IC:\Projects\l4-loadbalancer\vcpkg_installed\x64-windows\include -external:W0 /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /EHsc /MP  /MD /O2 /Oi /Gy /DNDEBUG /Z7  -MD /wd4251 /wd4275 /Zc:__cplusplus /utf-8 /showIncludes /FoCMakeFiles\spdlog.dir\src\cfg.cpp.obj /FdCMakeFiles\spdlog.dir\ /FS -c C:\Projects\l4-loadbalancer\vcpkg_installed\vcpkg\blds\spdlog\src\v1.17.0-2617b3696e.clean\src\cfg.cpp
+[3/9] C:\PROGRA~1\MIB055~1\18\COMMUN~1\VC\Tools\MSVC\1450~1.357\bin\Hostx64\x64\cl.exe   /TP -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_FWRITE_UNLOCKED -DSPDLOG_SHARED_LIB -Dspdlog_EXPORTS -IC:\Projects\l4-loadbalancer\vcpkg_installed\vcpkg\blds\spdlog\src\v1.17.0-2617b3696e.clean\include -external:IC:\Projects\l4-loadbalancer\vcpkg_installed\x64-windows\include -external:W0 /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /EHsc /MP  /MD /O2 /Oi /Gy /DNDEBUG /Z7  -MD /wd4251 /wd4275 /Zc:__cplusplus /utf-8 /showIncludes /FoCMakeFiles\spdlog.dir\src\async.cpp.obj /FdCMakeFiles\spdlog.dir\ /FS -c C:\Projects\l4-loadbalancer\vcpkg_installed\vcpkg\blds\spdlog\src\v1.17.0-2617b3696e.clean\src\async.cpp
+[4/9] C:\PROGRA~1\MIB055~1\18\COMMUN~1\VC\Tools\MSVC\1450~1.357\bin\Hostx64\x64\cl.exe   /TP -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_FWRITE_UNLOCKED -DSPDLOG_SHARED_LIB -Dspdlog_EXPORTS -IC:\Projects\l4-loadbalancer\vcpkg_installed\vcpkg\blds\spdlog\src\v1.17.0-2617b3696e.clean\include -external:IC:\Projects\l4-loadbalancer\vcpkg_installed\x64-windows\include -external:W0 /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /EHsc /MP  /MD /O2 /Oi /Gy /DNDEBUG /Z7  -MD /wd4251 /wd4275 /Zc:__cplusplus /utf-8 /showIncludes /FoCMakeFiles\spdlog.dir\src\file_sinks.cpp.obj /FdCMakeFiles\spdlog.dir\ /FS -c C:\Projects\l4-loadbalancer\vcpkg_installed\vcpkg\blds\spdlog\src\v1.17.0-2617b3696e.clean\src\file_sinks.cpp
+[5/9] C:\PROGRA~1\MIB055~1\18\COMMUN~1\VC\Tools\MSVC\1450~1.357\bin\Hostx64\x64\cl.exe   /TP -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_FWRITE_UNLOCKED -DSPDLOG_SHARED_LIB -Dspdlog_EXPORTS -IC:\Projects\l4-loadbalancer\vcpkg_installed\vcpkg\blds\spdlog\src\v1.17.0-2617b3696e.clean\include -external:IC:\Projects\l4-loadbalancer\vcpkg_installed\x64-windows\include -external:W0 /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /EHsc /MP  /MD /O2 /Oi /Gy /DNDEBUG /Z7  -MD /wd4251 /wd4275 /Zc:__cplusplus /utf-8 /showIncludes /FoCMakeFiles\spdlog.dir\src\color_sinks.cpp.obj /FdCMakeFiles\spdlog.dir\ /FS -c C:\Projects\l4-loadbalancer\vcpkg_installed\vcpkg\blds\spdlog\src\v1.17.0-2617b3696e.clean\src\color_sinks.cpp
+[6/9] C:\PROGRA~1\MIB055~1\18\COMMUN~1\VC\Tools\MSVC\1450~1.357\bin\Hostx64\x64\cl.exe   /TP -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_FWRITE_UNLOCKED -DSPDLOG_SHARED_LIB -Dspdlog_EXPORTS -IC:\Projects\l4-loadbalancer\vcpkg_installed\vcpkg\blds\spdlog\src\v1.17.0-2617b3696e.clean\include -external:IC:\Projects\l4-loadbalancer\vcpkg_installed\x64-windows\include -external:W0 /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /EHsc /MP  /MD /O2 /Oi /Gy /DNDEBUG /Z7  -MD /wd4251 /wd4275 /Zc:__cplusplus /utf-8 /showIncludes /FoCMakeFiles\spdlog.dir\src\stdout_sinks.cpp.obj /FdCMakeFiles\spdlog.dir\ /FS -c C:\Projects\l4-loadbalancer\vcpkg_installed\vcpkg\blds\spdlog\src\v1.17.0-2617b3696e.clean\src\stdout_sinks.cpp
+[7/9] C:\PROGRA~1\MIB055~1\18\COMMUN~1\VC\Tools\MSVC\1450~1.357\bin\Hostx64\x64\cl.exe   /TP -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_FWRITE_UNLOCKED -DSPDLOG_SHARED_LIB -Dspdlog_EXPORTS -IC:\Projects\l4-loadbalancer\vcpkg_installed\vcpkg\blds\spdlog\src\v1.17.0-2617b3696e.clean\include -external:IC:\Projects\l4-loadbalancer\vcpkg_installed\x64-windows\include -external:W0 /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /EHsc /MP  /MD /O2 /Oi /Gy /DNDEBUG /Z7  -MD /wd4251 /wd4275 /Zc:__cplusplus /utf-8 /showIncludes /FoCMakeFiles\spdlog.dir\src\spdlog.cpp.obj /FdCMakeFiles\spdlog.dir\ /FS -c C:\Projects\l4-loadbalancer\vcpkg_installed\vcpkg\blds\spdlog\src\v1.17.0-2617b3696e.clean\src\spdlog.cpp
+[8/9] C:\Windows\system32\cmd.exe /C "cd . && "C:\Program Files\CMake\bin\cmake.exe" -E vs_link_dll --msvc-ver=1950 --intdir=CMakeFiles\spdlog.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100261~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100261~1.0\x64\mt.exe --manifests  -- C:\PROGRA~1\MIB055~1\18\COMMUN~1\VC\Tools\MSVC\1450~1.357\bin\Hostx64\x64\link.exe  CMakeFiles\spdlog.dir\src\spdlog.cpp.obj CMakeFiles\spdlog.dir\src\stdout_sinks.cpp.obj CMakeFiles\spdlog.dir\src\color_sinks.cpp.obj CMakeFiles\spdlog.dir\src\file_sinks.cpp.obj CMakeFiles\spdlog.dir\src\async.cpp.obj CMakeFiles\spdlog.dir\src\cfg.cpp.obj CMakeFiles\spdlog.dir\version.rc.res  /out:spdlog.dll /implib:spdlog.lib /pdb:spdlog.pdb /dll /version:1.17 /machine:x64 /nologo /DEBUG /INCREMENTAL:NO /OPT:REF /OPT:ICF  C:\Projects\l4-loadbalancer\vcpkg_installed\x64-windows\lib\fmt.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+[8/9] C:\Windows\system32\cmd.exe /C "cd /D C:\Projects\l4-loadbalancer\vcpkg_installed\vcpkg\blds\spdlog\x64-windows-rel && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
+-- Install configuration: "Release"
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/async.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/async_logger-inl.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/async_logger.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/cfg
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/cfg/argv.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/cfg/env.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/cfg/helpers-inl.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/cfg/helpers.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/common-inl.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/common.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/details
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/details/backtracer-inl.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/details/backtracer.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/details/circular_q.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/details/console_globals.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/details/file_helper-inl.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/details/file_helper.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/details/fmt_helper.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/details/log_msg-inl.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/details/log_msg.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/details/log_msg_buffer-inl.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/details/log_msg_buffer.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/details/mpmc_blocking_q.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/details/null_mutex.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/details/os-inl.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/details/os.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/details/periodic_worker-inl.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/details/periodic_worker.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/details/registry-inl.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/details/registry.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/details/synchronous_factory.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/details/tcp_client-windows.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/details/tcp_client.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/details/thread_pool-inl.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/details/thread_pool.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/details/udp_client-windows.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/details/udp_client.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/details/windows_include.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/fmt
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/fmt/bin_to_hex.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/fmt/chrono.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/fmt/compile.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/fmt/fmt.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/fmt/ostr.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/fmt/ranges.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/fmt/std.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/fmt/xchar.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/formatter.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/fwd.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/logger-inl.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/logger.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/mdc.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/pattern_formatter-inl.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/pattern_formatter.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/sinks
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/sinks/android_sink.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/sinks/ansicolor_sink-inl.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/sinks/ansicolor_sink.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/sinks/base_sink-inl.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/sinks/base_sink.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/sinks/basic_file_sink-inl.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/sinks/basic_file_sink.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/sinks/callback_sink.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/sinks/daily_file_sink.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/sinks/dist_sink.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/sinks/dup_filter_sink.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/sinks/hourly_file_sink.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/sinks/kafka_sink.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/sinks/mongo_sink.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/sinks/msvc_sink.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/sinks/null_sink.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/sinks/ostream_sink.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/sinks/qt_sinks.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/sinks/ringbuffer_sink.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/sinks/rotating_file_sink-inl.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/sinks/rotating_file_sink.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/sinks/sink-inl.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/sinks/sink.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/sinks/stdout_color_sinks-inl.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/sinks/stdout_color_sinks.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/sinks/stdout_sinks-inl.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/sinks/stdout_sinks.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/sinks/syslog_sink.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/sinks/systemd_sink.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/sinks/tcp_sink.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/sinks/udp_sink.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/sinks/wincolor_sink-inl.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/sinks/wincolor_sink.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/sinks/win_eventlog_sink.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/spdlog-inl.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/spdlog.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/stopwatch.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/tweakme.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/include/spdlog/version.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/lib/spdlog.lib
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/bin/spdlog.dll
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/lib/pkgconfig/spdlog.pc
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/lib/cmake/spdlog/spdlogConfigTargets.cmake
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/lib/cmake/spdlog/spdlogConfigTargets-release.cmake
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/lib/cmake/spdlog/spdlogConfig.cmake
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/lib/cmake/spdlog/spdlogConfigVersion.cmake
+

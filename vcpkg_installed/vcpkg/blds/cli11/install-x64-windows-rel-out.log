@@ -1,0 +1,41 @@
+Change Dir: 'C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/blds/cli11/x64-windows-rel'
+
+Run Build Command(s): "C:/Users/MRATUNJAI SINGH/AppData/Local/vcpkg/downloads/tools/ninja/1.13.1-windows/ninja.exe" -v -v -j9 install
+[1/3] C:\PROGRA~1\MIB055~1\18\COMMUN~1\VC\Tools\MSVC\1450~1.357\bin\Hostx64\x64\cl.exe   /TP -DCLI11_COMPILE -D_MBCS -IC:\Projects\l4-loadbalancer\vcpkg_installed\vcpkg\blds\cli11\src\v2.6.2-f0d9462a16.clean\include /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /EHsc /MP  /MD /O2 /Oi /Gy /DNDEBUG /Z7  -std:c++17 -MD /showIncludes /Fosrc\CMakeFiles\CLI11.dir\Precompile.cpp.obj /Fdsrc\CMakeFiles\CLI11.dir\CLI11.pdb /FS -c C:\Projects\l4-loadbalancer\vcpkg_installed\vcpkg\blds\cli11\src\v2.6.2-f0d9462a16.clean\src\Precompile.cpp
+[2/3] C:\Windows\system32\cmd.exe /C "cd . && C:\PROGRA~1\MIB055~1\18\COMMUN~1\VC\Tools\MSVC\1450~1.357\bin\Hostx64\x64\lib.exe  -machine:x64 /nologo /out:src\CLI11.lib src\CMakeFiles\CLI11.dir\Precompile.cpp.obj && cd ."
+[2/3] C:\Windows\system32\cmd.exe /C "cd /D C:\Projects\l4-loadbalancer\vcpkg_installed\vcpkg\blds\cli11\x64-windows-rel && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
+-- Install configuration: "Release"
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/cli11_x64-windows/lib/CLI11.lib
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/cli11_x64-windows/include/CLI/App.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/cli11_x64-windows/include/CLI/Config.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/cli11_x64-windows/include/CLI/ConfigFwd.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/cli11_x64-windows/include/CLI/Error.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/cli11_x64-windows/include/CLI/Formatter.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/cli11_x64-windows/include/CLI/FormatterFwd.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/cli11_x64-windows/include/CLI/Macros.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/cli11_x64-windows/include/CLI/Option.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/cli11_x64-windows/include/CLI/Split.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/cli11_x64-windows/include/CLI/StringTools.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/cli11_x64-windows/include/CLI/TypeTools.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/cli11_x64-windows/include/CLI/Validators.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/cli11_x64-windows/include/CLI/ExtraValidators.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/cli11_x64-windows/include/CLI/Version.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/cli11_x64-windows/include/CLI/Encoding.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/cli11_x64-windows/include/CLI/Argv.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/cli11_x64-windows/include/CLI/CLI.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/cli11_x64-windows/include/CLI/Timer.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/cli11_x64-windows/include/CLI/impl/App_inl.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/cli11_x64-windows/include/CLI/impl/Config_inl.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/cli11_x64-windows/include/CLI/impl/Formatter_inl.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/cli11_x64-windows/include/CLI/impl/Option_inl.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/cli11_x64-windows/include/CLI/impl/Split_inl.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/cli11_x64-windows/include/CLI/impl/StringTools_inl.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/cli11_x64-windows/include/CLI/impl/Validators_inl.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/cli11_x64-windows/include/CLI/impl/ExtraValidators_inl.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/cli11_x64-windows/include/CLI/impl/Encoding_inl.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/cli11_x64-windows/include/CLI/impl/Argv_inl.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/cli11_x64-windows/share/cmake/CLI11/CLI11ConfigVersion.cmake
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/cli11_x64-windows/share/cmake/CLI11/CLI11Config.cmake
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/cli11_x64-windows/share/cmake/CLI11/CLI11Config-release.cmake
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/cli11_x64-windows/lib/pkgconfig/CLI11.pc
+

@@ -1,0 +1,8 @@
+Downloading https://github.com/boostorg/intrusive/archive/boost-1.90.0.tar.gz -> boostorg-intrusive-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-intrusive-boost-1.90.0.tar.gz
+-- Extracting source C:/Users/MRATUNJAI SINGH/AppData/Local/vcpkg/downloads/boostorg-intrusive-boost-1.90.0.tar.gz
+-- Using source at C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/blds/boost-intrusive/src/ost-1.90.0-3e4b015c82.clean
+-- Configuring x64-windows
+-- Building x64-windows-rel
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-intrusive_x64-windows/share/boost-intrusive/copyright
+-- Performing post-build validation

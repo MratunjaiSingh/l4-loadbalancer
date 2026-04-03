@@ -1,0 +1,7 @@
+C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-assert_x64-windows/include/boost/assert/source_location.hpp
+C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-assert_x64-windows/include/boost/assert.hpp
+C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-assert_x64-windows/include/boost/current_function.hpp
+C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-assert_x64-windows/share/boost-1.90.0/assert/boost_assert.natvis
+C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-assert_x64-windows/lib/cmake/boost_assert-1.90.0/boost_assert-targets.cmake
+C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-assert_x64-windows/lib/cmake/boost_assert-1.90.0/boost_assert-config.cmake
+C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-assert_x64-windows/lib/cmake/boost_assert-1.90.0/boost_assert-config-version.cmake

@@ -1,0 +1,8 @@
+Downloading https://github.com/boostorg/move/archive/boost-1.90.0.tar.gz -> boostorg-move-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-move-boost-1.90.0.tar.gz
+-- Extracting source C:/Users/MRATUNJAI SINGH/AppData/Local/vcpkg/downloads/boostorg-move-boost-1.90.0.tar.gz
+-- Using source at C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/blds/boost-move/src/ost-1.90.0-0b8fc9ef7a.clean
+-- Configuring x64-windows
+-- Building x64-windows-rel
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-move_x64-windows/share/boost-move/copyright
+-- Performing post-build validation

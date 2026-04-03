@@ -1,0 +1,15 @@
+Downloading https://github.com/gabime/spdlog/archive/v1.17.0.tar.gz -> gabime-spdlog-v1.17.0.tar.gz
+Successfully downloaded gabime-spdlog-v1.17.0.tar.gz
+-- Extracting source C:/Users/MRATUNJAI SINGH/AppData/Local/vcpkg/downloads/gabime-spdlog-v1.17.0.tar.gz
+-- Using source at C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/blds/spdlog/src/v1.17.0-2617b3696e.clean
+-- Configuring x64-windows
+-- Building x64-windows-dbg
+-- Building x64-windows-rel
+-- Fixing pkgconfig file: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/lib/pkgconfig/spdlog.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.4.3-1-any.pkg.tar.zst
+-- Using cached msys2-msys2-runtime-3.6.2-2-x86_64.pkg.tar.zst
+-- Using msys root at C:/Users/MRATUNJAI SINGH/AppData/Local/vcpkg/downloads/tools/msys2/9272adbcaf19caef
+-- Fixing pkgconfig file: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/debug/lib/pkgconfig/spdlog.pc
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/share/spdlog/usage
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/spdlog_x64-windows/share/spdlog/copyright
+-- Performing post-build validation

@@ -1,0 +1,62 @@
+Change Dir: 'C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/blds/boost-iterator/x64-windows-rel'
+
+Run Build Command(s): "C:/Users/MRATUNJAI SINGH/AppData/Local/vcpkg/downloads/tools/ninja/1.13.1-windows/ninja.exe" -v -v -j9 install
+[0/1] C:\Windows\system32\cmd.exe /C "cd /D C:\Projects\l4-loadbalancer\vcpkg_installed\vcpkg\blds\boost-iterator\x64-windows-rel && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
+-- Install configuration: "Release"
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include/boost
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include/boost/function_output_iterator.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include/boost/generator_iterator.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include/boost/indirect_reference.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include/boost/iterator
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include/boost/iterator/advance.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include/boost/iterator/counting_iterator.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include/boost/iterator/detail
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include/boost/iterator/detail/config_def.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include/boost/iterator/detail/config_undef.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include/boost/iterator/detail/eval_if_default.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include/boost/iterator/detail/facade_iterator_category.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include/boost/iterator/detail/if_default.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include/boost/iterator/detail/type_traits
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include/boost/iterator/detail/type_traits/conjunction.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include/boost/iterator/detail/type_traits/disjunction.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include/boost/iterator/detail/type_traits/negation.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include/boost/iterator/detail/type_traits/type_identity.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include/boost/iterator/distance.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include/boost/iterator/enable_if_convertible.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include/boost/iterator/filter_iterator.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include/boost/iterator/function_input_iterator.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include/boost/iterator/function_output_iterator.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include/boost/iterator/generator_iterator.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include/boost/iterator/indirect_iterator.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include/boost/iterator/interoperable.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include/boost/iterator/is_iterator.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include/boost/iterator/is_lvalue_iterator.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include/boost/iterator/is_readable_iterator.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include/boost/iterator/iterator_adaptor.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include/boost/iterator/iterator_archetypes.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include/boost/iterator/iterator_categories.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include/boost/iterator/iterator_concepts.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include/boost/iterator/iterator_facade.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include/boost/iterator/iterator_traits.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include/boost/iterator/minimum_category.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include/boost/iterator/min_category.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include/boost/iterator/new_iterator_tests.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include/boost/iterator/permutation_iterator.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include/boost/iterator/reverse_iterator.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include/boost/iterator/shared_container_iterator.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include/boost/iterator/transform_iterator.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include/boost/iterator/zip_iterator.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include/boost/iterator_adaptors.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include/boost/next_prior.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include/boost/pending
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include/boost/pending/detail
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include/boost/pending/detail/int_iterator.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include/boost/pending/iterator_adaptors.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include/boost/pending/iterator_tests.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include/boost/pointee.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/include/boost/shared_container_iterator.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/lib/cmake/boost_iterator-1.90.0/boost_iterator-targets.cmake
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/lib/cmake/boost_iterator-1.90.0/boost_iterator-config.cmake
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-iterator_x64-windows/lib/cmake/boost_iterator-1.90.0/boost_iterator-config-version.cmake
+

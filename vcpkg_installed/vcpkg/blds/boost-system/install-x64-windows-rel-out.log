@@ -1,0 +1,54 @@
+Change Dir: 'C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/blds/boost-system/x64-windows-rel'
+
+Run Build Command(s): "C:/Users/MRATUNJAI SINGH/AppData/Local/vcpkg/downloads/tools/ninja/1.13.1-windows/ninja.exe" -v -v -j9 install
+[0/1] C:\Windows\system32\cmd.exe /C "cd /D C:\Projects\l4-loadbalancer\vcpkg_installed\vcpkg\blds\boost-system\x64-windows-rel && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
+-- Install configuration: "Release"
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-system_x64-windows/include
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-system_x64-windows/include/boost
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-system_x64-windows/include/boost/cerrno.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-system_x64-windows/include/boost/system
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-system_x64-windows/include/boost/system/api_config.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-system_x64-windows/include/boost/system/config.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-system_x64-windows/include/boost/system/detail
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-system_x64-windows/include/boost/system/detail/append_int.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-system_x64-windows/include/boost/system/detail/cerrno.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-system_x64-windows/include/boost/system/detail/config.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-system_x64-windows/include/boost/system/detail/enable_if.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-system_x64-windows/include/boost/system/detail/errc.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-system_x64-windows/include/boost/system/detail/error_category.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-system_x64-windows/include/boost/system/detail/error_category_impl.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-system_x64-windows/include/boost/system/detail/error_code.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-system_x64-windows/include/boost/system/detail/error_condition.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-system_x64-windows/include/boost/system/detail/generic_category.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-system_x64-windows/include/boost/system/detail/generic_category_message.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-system_x64-windows/include/boost/system/detail/interop_category.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-system_x64-windows/include/boost/system/detail/is_same.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-system_x64-windows/include/boost/system/detail/mutex.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-system_x64-windows/include/boost/system/detail/snprintf.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-system_x64-windows/include/boost/system/detail/std_category.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-system_x64-windows/include/boost/system/detail/std_category_impl.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-system_x64-windows/include/boost/system/detail/system_category.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-system_x64-windows/include/boost/system/detail/system_category_condition_win32.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-system_x64-windows/include/boost/system/detail/system_category_impl.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-system_x64-windows/include/boost/system/detail/system_category_message.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-system_x64-windows/include/boost/system/detail/system_category_message_win32.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-system_x64-windows/include/boost/system/detail/throws.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-system_x64-windows/include/boost/system/errc.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-system_x64-windows/include/boost/system/error_category.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-system_x64-windows/include/boost/system/error_code.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-system_x64-windows/include/boost/system/error_condition.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-system_x64-windows/include/boost/system/generic_category.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-system_x64-windows/include/boost/system/is_error_code_enum.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-system_x64-windows/include/boost/system/is_error_condition_enum.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-system_x64-windows/include/boost/system/linux_error.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-system_x64-windows/include/boost/system/result.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-system_x64-windows/include/boost/system/system_category.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-system_x64-windows/include/boost/system/system_error.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-system_x64-windows/include/boost/system/windows_error.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-system_x64-windows/include/boost/system.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-system_x64-windows/share/boost-1.90.0/system
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-system_x64-windows/share/boost-1.90.0/system/boost_system.natvis
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-system_x64-windows/lib/cmake/boost_system-1.90.0/boost_system-targets.cmake
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-system_x64-windows/lib/cmake/boost_system-1.90.0/boost_system-config.cmake
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-system_x64-windows/lib/cmake/boost_system-1.90.0/boost_system-config-version.cmake
+

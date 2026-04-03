@@ -1,0 +1,33 @@
+Change Dir: 'C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/blds/fmt/x64-windows-rel'
+
+Run Build Command(s): "C:/Users/MRATUNJAI SINGH/AppData/Local/vcpkg/downloads/tools/ninja/1.13.1-windows/ninja.exe" -v -v -j9 install
+[1/4] C:\PROGRA~1\MIB055~1\18\COMMUN~1\VC\Tools\MSVC\1450~1.357\bin\Hostx64\x64\cl.exe   /TP -DFMT_LIB_EXPORT -Dfmt_EXPORTS -IC:\Projects\l4-loadbalancer\vcpkg_installed\vcpkg\blds\fmt\src\12.1.0-54f1f91231.clean\include /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /EHsc /MP  /MD /O2 /Oi /Gy /DNDEBUG /Z7  -MD /utf-8 /showIncludes /FoCMakeFiles\fmt.dir\src\os.cc.obj /Fdfmt.pdb /FS -c C:\Projects\l4-loadbalancer\vcpkg_installed\vcpkg\blds\fmt\src\12.1.0-54f1f91231.clean\src\os.cc
+[2/4] C:\PROGRA~1\MIB055~1\18\COMMUN~1\VC\Tools\MSVC\1450~1.357\bin\Hostx64\x64\cl.exe   /TP -DFMT_LIB_EXPORT -Dfmt_EXPORTS -IC:\Projects\l4-loadbalancer\vcpkg_installed\vcpkg\blds\fmt\src\12.1.0-54f1f91231.clean\include /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /EHsc /MP  /MD /O2 /Oi /Gy /DNDEBUG /Z7  -MD /utf-8 /showIncludes /FoCMakeFiles\fmt.dir\src\format.cc.obj /Fdfmt.pdb /FS -c C:\Projects\l4-loadbalancer\vcpkg_installed\vcpkg\blds\fmt\src\12.1.0-54f1f91231.clean\src\format.cc
+C:\Projects\l4-loadbalancer\vcpkg_installed\vcpkg\blds\fmt\src\12.1.0-54f1f91231.clean\include\fmt\base.h(930): warning C4834: discarding return value of function with [[nodiscard]] attribute
+C:\Projects\l4-loadbalancer\vcpkg_installed\vcpkg\blds\fmt\src\12.1.0-54f1f91231.clean\include\fmt\base.h(930): note: the template instantiation context (the oldest one first) is
+C:\Projects\l4-loadbalancer\vcpkg_installed\vcpkg\blds\fmt\src\12.1.0-54f1f91231.clean\src\format.cc(13): note: see reference to function template instantiation 'fmt::v12::locale_ref::locale_ref<std::locale,0>(const std::locale &)' being compiled
+[3/4] C:\Windows\system32\cmd.exe /C "cd . && "C:\Program Files\CMake\bin\cmake.exe" -E vs_link_dll --msvc-ver=1950 --intdir=CMakeFiles\fmt.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100261~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100261~1.0\x64\mt.exe --manifests  -- C:\PROGRA~1\MIB055~1\18\COMMUN~1\VC\Tools\MSVC\1450~1.357\bin\Hostx64\x64\link.exe  CMakeFiles\fmt.dir\src\format.cc.obj CMakeFiles\fmt.dir\src\os.cc.obj  /out:bin\fmt.dll /implib:fmt.lib /pdb:bin\fmt.pdb /dll /version:12.1 /machine:x64 /nologo /DEBUG /INCREMENTAL:NO /OPT:REF /OPT:ICF  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+[3/4] C:\Windows\system32\cmd.exe /C "cd /D C:\Projects\l4-loadbalancer\vcpkg_installed\vcpkg\blds\fmt\x64-windows-rel && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
+-- Install configuration: "Release"
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/fmt_x64-windows/lib/fmt.lib
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/fmt_x64-windows/bin/fmt.dll
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/fmt_x64-windows/include/fmt/args.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/fmt_x64-windows/include/fmt/base.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/fmt_x64-windows/include/fmt/chrono.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/fmt_x64-windows/include/fmt/color.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/fmt_x64-windows/include/fmt/compile.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/fmt_x64-windows/include/fmt/core.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/fmt_x64-windows/include/fmt/format.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/fmt_x64-windows/include/fmt/format-inl.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/fmt_x64-windows/include/fmt/os.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/fmt_x64-windows/include/fmt/ostream.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/fmt_x64-windows/include/fmt/printf.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/fmt_x64-windows/include/fmt/ranges.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/fmt_x64-windows/include/fmt/std.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/fmt_x64-windows/include/fmt/xchar.h
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/fmt_x64-windows/share/fmt/fmt-config.cmake
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/fmt_x64-windows/share/fmt/fmt-config-version.cmake
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/fmt_x64-windows/share/fmt/fmt-targets.cmake
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/fmt_x64-windows/share/fmt/fmt-targets-release.cmake
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/fmt_x64-windows/lib/pkgconfig/fmt.pc
+

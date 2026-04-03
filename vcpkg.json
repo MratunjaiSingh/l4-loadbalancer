@@ -1,0 +1,12 @@
+{
+  "name": "l4-loadbalancer",
+  "version": "0.1.0",
+  "builtin-baseline": "cb2981c4e03d421fa03b9bb5044cd1986180e7e4",
+  "dependencies": [
+    "boost-asio",
+    "spdlog",
+    "nlohmann-json",
+    "cli11",
+    "catch2"
+  ]
+}

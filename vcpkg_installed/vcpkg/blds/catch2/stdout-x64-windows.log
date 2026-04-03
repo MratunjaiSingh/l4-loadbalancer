@@ -1,0 +1,20 @@
+-- Note: catch2 only supports static library linkage. Building static library.
+Downloading https://github.com/catchorg/Catch2/archive/v3.13.0.tar.gz -> catchorg-Catch2-v3.13.0.tar.gz
+Successfully downloaded catchorg-Catch2-v3.13.0.tar.gz
+-- Extracting source C:/Users/MRATUNJAI SINGH/AppData/Local/vcpkg/downloads/catchorg-Catch2-v3.13.0.tar.gz
+-- Applying patch fix-install-path.patch
+-- Using source at C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/blds/catch2/src/v3.13.0-981ec6066a.clean
+-- Configuring x64-windows
+-- Building x64-windows-dbg
+-- Building x64-windows-rel
+-- Fixing pkgconfig file: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/catch2_x64-windows/lib/pkgconfig/catch2-with-main.pc
+-- Fixing pkgconfig file: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/catch2_x64-windows/lib/pkgconfig/catch2.pc
+Downloading msys2-mingw-w64-x86_64-pkgconf-1~2.4.3-1-any.pkg.tar.zst, trying https://mirror.msys2.org/mingw/mingw64/mingw-w64-x86_64-pkgconf-1~2.4.3-1-any.pkg.tar.zst
+Successfully downloaded msys2-mingw-w64-x86_64-pkgconf-1~2.4.3-1-any.pkg.tar.zst
+Downloading msys2-msys2-runtime-3.6.2-2-x86_64.pkg.tar.zst, trying https://mirror.msys2.org/msys/x86_64/msys2-runtime-3.6.2-2-x86_64.pkg.tar.zst
+Successfully downloaded msys2-msys2-runtime-3.6.2-2-x86_64.pkg.tar.zst
+-- Using msys root at C:/Users/MRATUNJAI SINGH/AppData/Local/vcpkg/downloads/tools/msys2/9272adbcaf19caef
+-- Fixing pkgconfig file: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/catch2_x64-windows/debug/lib/pkgconfig/catch2-with-main.pc
+-- Fixing pkgconfig file: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/catch2_x64-windows/debug/lib/pkgconfig/catch2.pc
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/catch2_x64-windows/share/catch2/copyright
+-- Performing post-build validation

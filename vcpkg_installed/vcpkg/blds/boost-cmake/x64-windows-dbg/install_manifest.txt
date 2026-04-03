@@ -1,0 +1,2 @@
+C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-cmake_x64-windows/debug/share/boost/BoostConfigVersion.cmake
+C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-cmake_x64-windows/debug/share/boost/BoostConfig.cmake

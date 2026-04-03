@@ -1,0 +1,7 @@
+C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-tuple_x64-windows/include/boost/tuple/detail/tuple_basic.hpp
+C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-tuple_x64-windows/include/boost/tuple/tuple.hpp
+C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-tuple_x64-windows/include/boost/tuple/tuple_comparison.hpp
+C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-tuple_x64-windows/include/boost/tuple/tuple_io.hpp
+C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-tuple_x64-windows/lib/cmake/boost_tuple-1.90.0/boost_tuple-targets.cmake
+C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-tuple_x64-windows/lib/cmake/boost_tuple-1.90.0/boost_tuple-config.cmake
+C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-tuple_x64-windows/lib/cmake/boost_tuple-1.90.0/boost_tuple-config-version.cmake

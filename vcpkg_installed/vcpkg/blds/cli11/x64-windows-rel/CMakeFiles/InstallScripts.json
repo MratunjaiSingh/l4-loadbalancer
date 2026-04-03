@@ -1,0 +1,11 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/blds/cli11/x64-windows-rel/cmake_install.cmake",
+		"C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/blds/cli11/x64-windows-rel/fuzz/cmake_install.cmake",
+		"C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/blds/cli11/x64-windows-rel/src/cmake_install.cmake",
+		"C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/blds/cli11/x64-windows-rel/single-include/cmake_install.cmake",
+		"C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/blds/cli11/x64-windows-rel/book/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

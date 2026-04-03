@@ -1,0 +1,4 @@
+# ninja log v7
+8	10260	7969067016361620	src/CMakeFiles/CLI11.dir/Precompile.cpp.obj	9f36a6342d34289
+10265	11009	7969067118973109	src/CLI11.lib	bf1fe0db06e9785b
+11009	11301	7969067126368026	CMakeFiles/install.util	3aa28aa259d7cddf

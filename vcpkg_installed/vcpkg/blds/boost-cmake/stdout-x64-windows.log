@@ -1,0 +1,22 @@
+Downloading https://github.com/boostorg/cmake/archive/boost-1.90.0.tar.gz -> boostorg-cmake-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-cmake-boost-1.90.0.tar.gz
+-- Extracting source C:/Users/MRATUNJAI SINGH/AppData/Local/vcpkg/downloads/boostorg-cmake-boost-1.90.0.tar.gz
+-- Applying patch 0001-vcpkg-build.patch
+-- Applying patch 0002-remove-prefix-and-suffix.patch
+-- Using source at C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/blds/boost-cmake/src/ost-1.90.0-7084b3f473.clean
+-- Configuring x64-windows
+-- Building x64-windows-dbg
+-- Building x64-windows-rel
+-- Up-to-date: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-cmake_x64-windows/share/boost/cmake-build
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-cmake_x64-windows/share/boost/cmake-build/BoostFetch.cmake
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-cmake_x64-windows/share/boost/cmake-build/BoostInstall.cmake
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-cmake_x64-windows/share/boost/cmake-build/BoostMessage.cmake
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-cmake_x64-windows/share/boost/cmake-build/BoostRoot.cmake
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-cmake_x64-windows/share/boost/cmake-build/BoostTest.cmake
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-cmake_x64-windows/share/boost/cmake-build/BoostTestJamfile.cmake
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-cmake_x64-windows/share/boost-cmake/vcpkg-port-config.cmake
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-cmake_x64-windows/share/boost-cmake/usage
+Downloading https://raw.githubusercontent.com/boostorg/boost/refs/tags/boost-1.90.0/LICENSE_1_0.txt -> boost-1.90.0-LICENSE_1_0.txt
+Successfully downloaded boost-1.90.0-LICENSE_1_0.txt
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-cmake_x64-windows/share/boost-cmake/copyright
+-- Performing post-build validation

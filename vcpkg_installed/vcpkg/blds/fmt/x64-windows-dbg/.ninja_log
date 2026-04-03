@@ -1,0 +1,6 @@
+# ninja log v7
+13	2009	7969074878321015	CMakeFiles/fmt.dir/src/os.cc.obj	e8c59bdadb0aacad
+6	2523	7969074878246080	CMakeFiles/fmt.dir/src/format.cc.obj	446214d228120b25
+2523	4338	7969074920065603	bin/fmtd.dll	fd8b1c4e787cdf5e
+2523	4338	7969074920065603	fmtd.lib	fd8b1c4e787cdf5e
+4339	5165	7969074921577008	CMakeFiles/install.util	d12fb929dcda636d

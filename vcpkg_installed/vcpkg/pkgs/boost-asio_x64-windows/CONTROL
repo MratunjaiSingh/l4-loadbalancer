@@ -1,0 +1,23 @@
+Package: boost-asio
+Version: 1.90.0
+Port-Version: 1
+Depends: boost-align, boost-assert, boost-cmake, boost-config, boost-headers, boost-system, boost-throw-exception
+Architecture: x64-windows
+Multi-Arch: same
+Abi: f89b3f894ad18c9063273a21e63885f5579b0afe433f72aa2f9f9353bbe9cd8b
+Description: Boost asio module
+Default-Features: deadline-timer, spawn
+
+Package: boost-asio
+Feature: deadline-timer
+Depends: boost-date-time
+Architecture: x64-windows
+Multi-Arch: same
+Description: Build with deadline_timer support
+
+Package: boost-asio
+Feature: spawn
+Depends: boost-context
+Architecture: x64-windows
+Multi-Arch: same
+Description: Build with spawn (stackful coroutines) support

@@ -1,0 +1,8 @@
+Package: boost-functional
+Version: 1.90.0
+Port-Version: 1
+Depends: boost-cmake, boost-config, boost-core, boost-function, boost-function-types, boost-headers, boost-mpl, boost-preprocessor, boost-type-traits, boost-typeof, boost-utility
+Architecture: x64-windows
+Multi-Arch: same
+Abi: ab1de76df324839e182df813aba3b906bb7ae11aa466eda0886c637daf6064b0
+Description: Boost functional module

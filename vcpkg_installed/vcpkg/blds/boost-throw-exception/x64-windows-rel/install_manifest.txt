@@ -1,0 +1,5 @@
+C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-throw-exception_x64-windows/include/boost/exception/exception.hpp
+C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-throw-exception_x64-windows/include/boost/throw_exception.hpp
+C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-throw-exception_x64-windows/lib/cmake/boost_throw_exception-1.90.0/boost_throw_exception-targets.cmake
+C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-throw-exception_x64-windows/lib/cmake/boost_throw_exception-1.90.0/boost_throw_exception-config.cmake
+C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-throw-exception_x64-windows/lib/cmake/boost_throw_exception-1.90.0/boost_throw_exception-config-version.cmake

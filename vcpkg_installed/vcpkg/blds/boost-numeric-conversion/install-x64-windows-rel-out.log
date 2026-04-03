@@ -1,0 +1,41 @@
+Change Dir: 'C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/blds/boost-numeric-conversion/x64-windows-rel'
+
+Run Build Command(s): "C:/Users/MRATUNJAI SINGH/AppData/Local/vcpkg/downloads/tools/ninja/1.13.1-windows/ninja.exe" -v -v -j9 install
+[0/1] C:\Windows\system32\cmd.exe /C "cd /D C:\Projects\l4-loadbalancer\vcpkg_installed\vcpkg\blds\boost-numeric-conversion\x64-windows-rel && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
+-- Install configuration: "Release"
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-numeric-conversion_x64-windows/include
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-numeric-conversion_x64-windows/include/boost
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-numeric-conversion_x64-windows/include/boost/cast.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-numeric-conversion_x64-windows/include/boost/numeric
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-numeric-conversion_x64-windows/include/boost/numeric/conversion
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-numeric-conversion_x64-windows/include/boost/numeric/conversion/bounds.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-numeric-conversion_x64-windows/include/boost/numeric/conversion/cast.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-numeric-conversion_x64-windows/include/boost/numeric/conversion/conversion_traits.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-numeric-conversion_x64-windows/include/boost/numeric/conversion/converter.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-numeric-conversion_x64-windows/include/boost/numeric/conversion/converter_policies.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-numeric-conversion_x64-windows/include/boost/numeric/conversion/detail
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-numeric-conversion_x64-windows/include/boost/numeric/conversion/detail/bounds.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-numeric-conversion_x64-windows/include/boost/numeric/conversion/detail/conversion_traits.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-numeric-conversion_x64-windows/include/boost/numeric/conversion/detail/converter.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-numeric-conversion_x64-windows/include/boost/numeric/conversion/detail/int_float_mixture.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-numeric-conversion_x64-windows/include/boost/numeric/conversion/detail/is_subranged.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-numeric-conversion_x64-windows/include/boost/numeric/conversion/detail/meta.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-numeric-conversion_x64-windows/include/boost/numeric/conversion/detail/numeric_cast_traits.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-numeric-conversion_x64-windows/include/boost/numeric/conversion/detail/old_numeric_cast.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-numeric-conversion_x64-windows/include/boost/numeric/conversion/detail/preprocessed
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-numeric-conversion_x64-windows/include/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_common.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-numeric-conversion_x64-windows/include/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_long_long.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-numeric-conversion_x64-windows/include/boost/numeric/conversion/detail/sign_mixture.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-numeric-conversion_x64-windows/include/boost/numeric/conversion/detail/udt_builtin_mixture.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-numeric-conversion_x64-windows/include/boost/numeric/conversion/int_float_mixture.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-numeric-conversion_x64-windows/include/boost/numeric/conversion/int_float_mixture_enum.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-numeric-conversion_x64-windows/include/boost/numeric/conversion/is_subranged.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-numeric-conversion_x64-windows/include/boost/numeric/conversion/numeric_cast_traits.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-numeric-conversion_x64-windows/include/boost/numeric/conversion/sign_mixture.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-numeric-conversion_x64-windows/include/boost/numeric/conversion/sign_mixture_enum.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-numeric-conversion_x64-windows/include/boost/numeric/conversion/udt_builtin_mixture.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-numeric-conversion_x64-windows/include/boost/numeric/conversion/udt_builtin_mixture_enum.hpp
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-numeric-conversion_x64-windows/lib/cmake/boost_numeric_conversion-1.90.0/boost_numeric_conversion-targets.cmake
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-numeric-conversion_x64-windows/lib/cmake/boost_numeric_conversion-1.90.0/boost_numeric_conversion-config.cmake
+-- Installing: C:/Projects/l4-loadbalancer/vcpkg_installed/vcpkg/pkgs/boost-numeric-conversion_x64-windows/lib/cmake/boost_numeric_conversion-1.90.0/boost_numeric_conversion-config-version.cmake
+

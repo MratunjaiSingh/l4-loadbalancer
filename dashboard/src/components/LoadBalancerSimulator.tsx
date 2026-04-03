@@ -554,12 +554,12 @@ export default function LoadBalancerSimulator() {
   const maxReq = Math.max(...backendStats.map((s) => s.req), 1);
   const sc = SCENARIO_META[scenario];
 
-  const moodBg: Record<string, string> = {
-    info: "bg-blue-500/8 border-blue-500/20 text-blue-400",
-    warn: "bg-amber-500/8 border-amber-500/20 text-amber-400",
-    danger: "bg-red-500/8 border-red-500/20 text-red-400",
-    success: "bg-emerald-500/8 border-emerald-500/20 text-emerald-400",
-  };
+  // const moodBg: Record<string, string> = {
+  //   info: "bg-blue-500/8 border-blue-500/20 text-blue-400",
+  //   warn: "bg-amber-500/8 border-amber-500/20 text-amber-400",
+  //   danger: "bg-red-500/8 border-red-500/20 text-red-400",
+  //   success: "bg-emerald-500/8 border-emerald-500/20 text-emerald-400",
+  // };
 
   return (
     <div
