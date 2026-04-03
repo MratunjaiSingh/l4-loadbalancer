@@ -1,4 +1,4 @@
-#include <iostream>
+ #include <iostream>
 #include <string>
 #include <vector>
 
@@ -6,6 +6,7 @@
 #include <boost/asio.hpp>
 #include "core/listener.hpp"
 #include "backend/backend_pool.hpp"
+#include "backend/health_check.hpp"
 #include "balancer/round_robin.hpp"
 
 int main(int argc, char* argv[]) {
@@ -29,21 +30,24 @@ int main(int argc, char* argv[]) {
         std::cout << "  -> " << b << std::endl;
 
     try {
-        std::cout << "Creating io_context..." << std::endl;
         boost::asio::io_context ioc;
-        std::cout << "Creating pool..." << std::endl;
-        auto pool = std::make_shared<lb::BackendPool>(backends);
-        std::cout << "Creating balancer..." << std::endl;
-        auto balancer = std::make_shared<lb::RoundRobin>(pool);
-        std::cout << "Creating listener..." << std::endl;
-        lb::Listener listener(ioc, "0.0.0.0", 8080, balancer);
-        std::cout << "Starting..." << std::endl;
-        listener.start();
         auto work = boost::asio::make_work_guard(ioc);
-        std::cout << "Running on port 8080! Ctrl+C to stop." << std::endl;
+
+        auto pool = std::make_shared<lb::BackendPool>(backends);
+        auto balancer = std::make_shared<lb::RoundRobin>(pool);
+
+        // Health checker — every 3 seconds
+       //  lb::HealthChecker health(ioc, pool);
+        // health.start();
+
+        lb::Listener listener(ioc, "0.0.0.0", 8080, balancer);
+        listener.start();
+
+        std::cout << "Running on port 8080! Ctrl+ to stop." << std::endl;
 
         boost::asio::signal_set signals(ioc, SIGINT, SIGTERM);
         signals.async_wait([&](auto, auto) {
+            std::cout << "Shutting down..." << std::endl;
             work.reset();
             ioc.stop();
         });
@@ -57,4 +61,4 @@ int main(int argc, char* argv[]) {
         return 1;
     }
     return 0;
-}
+} 

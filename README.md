@@ -27,4 +27,10 @@ npm run dev
 Open http://localhost:5173
 
 ## 📊 Architecture
-Client → TCP Listener → Load Balancer → Backend Pool
+Client → TCP Listener → Load Balancer → Backend Pool 
+ 
+ ## ✅ Working Features
+- Real TCP proxying via Boost.Asio
+- Round Robin load balancing verified
+- Auto-failover on backend crash
+- Live React dashboard
