@@ -3,7 +3,8 @@
 A high-performance Layer 4 TCP Load Balancer built in C++ with a real-time React dashboard.
 
 ## 🔴 Live Demo
-> Dashboard: [coming soon - deploying]
+>
+> Dashboard: https://brilliant-panda-50c961.netlify.app
 
 ## ⚡ Features
 - TCP connection proxying via Boost.Asio
