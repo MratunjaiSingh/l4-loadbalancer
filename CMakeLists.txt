@@ -9,7 +9,6 @@ add_compile_definitions(_WIN32_WINNT=0x0601)
 find_package(Boost CONFIG REQUIRED COMPONENTS system)
 find_package(spdlog CONFIG REQUIRED)
 find_package(nlohmann_json CONFIG REQUIRED)
-find_package(CLI11 CONFIG REQUIRED)
 
 add_executable(l4lb
     src/main.cpp
@@ -20,11 +19,14 @@ add_executable(l4lb
     src/config/config.cpp
 )
 
+set_target_properties(l4lb PROPERTIES
+    LINK_FLAGS "/SUBSYSTEM:CONSOLE"
+)
+
 target_include_directories(l4lb PRIVATE src)
 
 target_link_libraries(l4lb PRIVATE
     Boost::system
     spdlog::spdlog
     nlohmann_json::nlohmann_json
-    CLI11::CLI11
 ) 

@@ -1,53 +1,60 @@
-#define SPDLOG_ACTIVE_LEVEL SPDLOG_LEVEL_DEBUG
-#include <boost/asio.hpp>
-#include <spdlog/spdlog.h>
-#include <CLI/CLI.hpp>
 #include <iostream>
 #include <string>
 #include <vector>
+
+#define _WIN32_WINNT 0x0601
+#include <boost/asio.hpp>
 #include "core/listener.hpp"
 #include "backend/backend_pool.hpp"
 #include "balancer/round_robin.hpp"
 
 int main(int argc, char* argv[]) {
-    spdlog::set_level(spdlog::level::debug);
+    std::cout << "=== L4 Load Balancer ===" << std::endl;
 
-    CLI::App app{"L4 Load Balancer"};
-    std::string host = "0.0.0.0";
-    uint16_t port = 8080;
     std::vector<std::string> backends;
+    for (int i = 1; i < argc; i++) {
+        std::string arg = argv[i];
+        if (arg == "--backend" && i + 1 < argc) {
+            backends.push_back(argv[++i]);
+        }
+    }
 
-    app.add_option("--host", host, "Listen host")->default_val("0.0.0.0");
-    app.add_option("--port", port, "Listen port")->default_val(8080);
-    app.add_option("--backend", backends, "Backend servers")
-       ->required()
-       ->expected(-1);
+    if (backends.empty()) {
+        std::cerr << "Usage: l4lb --backend IP:PORT" << std::endl;
+        return 1;
+    }
 
-    CLI11_PARSE(app, argc, argv);
-
-    std::cout << "Starting L4 Load Balancer on "
-              << host << ":" << port << std::endl;
+    std::cout << "Backends: " << backends.size() << std::endl;
     for (auto& b : backends)
         std::cout << "  -> " << b << std::endl;
 
-    boost::asio::io_context ioc;
-    auto work = boost::asio::make_work_guard(ioc);
+    try {
+        std::cout << "Creating io_context..." << std::endl;
+        boost::asio::io_context ioc;
+        std::cout << "Creating pool..." << std::endl;
+        auto pool = std::make_shared<lb::BackendPool>(backends);
+        std::cout << "Creating balancer..." << std::endl;
+        auto balancer = std::make_shared<lb::RoundRobin>(pool);
+        std::cout << "Creating listener..." << std::endl;
+        lb::Listener listener(ioc, "0.0.0.0", 8080, balancer);
+        std::cout << "Starting..." << std::endl;
+        listener.start();
+        auto work = boost::asio::make_work_guard(ioc);
+        std::cout << "Running on port 8080! Ctrl+C to stop." << std::endl;
 
-    auto pool     = std::make_shared<lb::BackendPool>(backends);
-    auto balancer = std::make_shared<lb::RoundRobin>(pool);
-    lb::Listener listener(ioc, host, port, balancer);
-    listener.start();
+        boost::asio::signal_set signals(ioc, SIGINT, SIGTERM);
+        signals.async_wait([&](auto, auto) {
+            work.reset();
+            ioc.stop();
+        });
 
-    std::cout << "Listening on port " << port
-              << " — press Ctrl+C to stop." << std::endl;
-
-    boost::asio::signal_set signals(ioc, SIGINT, SIGTERM);
-    signals.async_wait([&](auto, auto) {
-        std::cout << "Shutting down..." << std::endl;
-        work.reset();
-        ioc.stop();
-    });
-
-    ioc.run();
+        ioc.run();
+    } catch (std::exception& e) {
+        std::cerr << "EXCEPTION: " << e.what() << std::endl;
+        return 1;
+    } catch (...) {
+        std::cerr << "UNKNOWN EXCEPTION!" << std::endl;
+        return 1;
+    }
     return 0;
-} 
+}
