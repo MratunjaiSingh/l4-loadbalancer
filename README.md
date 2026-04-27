@@ -4,7 +4,7 @@ A high-performance Layer 4 TCP Load Balancer built in C++ with a real-time React
 
 ## 🔴 Live Demo
 >
-> Dashboard: https://brilliant-panda-50c961.netlify.app
+> Dashboard: https://ms-l4-load-balancer.netlify.app/   
 
 ## ⚡ Features
 - TCP connection proxying via Boost.Asio
